@@ -1,0 +1,173 @@
+@import url("http://fonts.cdnfonts.com/css/arial-mt");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #121212;
+  color: #fff;
+  font-family: "Arial Black", sans-serif;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-links {
+  margin: 0;
+  padding: 12px 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 72px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+li a,
+footer p a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+li a:hover {
+  border-bottom: 3px solid black;
+  padding-bottom: 6px;
+}
+
+figcaption {
+  font-family: "Arial MT";
+}
+
+.divider {
+  background-color: #fff;
+  height: 3px;
+  width: 500px;
+  margin: 30px auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  padding: 30px;
+}
+
+#image {
+  max-width: auto;
+  height: 500px;
+  border-radius: 5%;
+  display: block;
+}
+
+#title {
+  font-size: 88px;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.sec-content {
+  font-size: 24px;
+  font-style: italic;
+  margin: 10px auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.italic {
+  font-family: "Arial MT";
+}
+
+#title,
+.subtitle,
+figcaption,
+.sec-title,
+.sec-content {
+  text-align: center;
+}
+
+.disco-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 80px auto;
+  gap: 52px;
+}
+
+.album-art-wrapper img {
+  width: auto;
+  height: 200px;
+  border: solid 2px #fff;
+  border-radius: 5%;
+}
+
+.album-art-wrapper p {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  font-style: italic;
+  margin: 10px auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.quote-author {
+  align-self: flex-end;
+  padding-right: 60px;
+  padding-bottom: 20px;
+}
+
+footer p a {
+  color: #0fe707;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+  color: #f60645;
+}
